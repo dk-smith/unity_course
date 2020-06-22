@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     [SerializeField] private GameObject bullet = null;
-    [SerializeField] private int ammo = 20;
+    [SerializeField] private int ammo = 40;
 
     public void Shoot() {
         if (ammo > 0) {
